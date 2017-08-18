@@ -1,68 +1,38 @@
-// //======================================================================
-// // Breakpoint
-// //======================================================================
-// $breakpoint-up: (
-// 	'sp': 'screen and (min-width: 768px)',
-// 	'tb': 'screen and (min-width: 940px)',
-// 	'md': 'screen and (min-width: 1000px)',
-// 	'lg': 'screen and (min-width: 1300px)',
-// ) !default;
-//
-// $breakpoint-down: (
-// 	'sp': 'screen and (max-width: 767px)',
-// 	'tb': 'screen and (max-width: 939px)',
-// 	'md': 'screen and (max-width: 999px)',
-// 	'lg': 'screen and (max-width: 1299px)',
-// ) !default;
-//
-// //
-// // It's means sign below
-// // -------------------------
-// // sp : smartphone
-// // tb : tablet
-// // md : medium
-// // lg : large
-// // -------------------------
-// //
-//
-//
-// @mixin mq-up($breakpoint: lg) {
-// 	@media #{map-get($breakpoint-up, $breakpoint)}{
-// 		@content;
-// 	}
-// }
-//
-// @mixin mq-down($breakpoint: lg) {
-// 	@media #{map-get($breakpoint-down, $breakpoint)}{
-// 		@content;
-// 	}
-// }
-
+//======================================================================
+// Breakpoint
+//======================================================================
 $breakpoint-up: (
-	'sm': 'screen and (min-width: 400px)',
-	'menu': 'screen and (min-width: 600px)',
-	'md': 'screen and (min-width: 940px)',
-	'lg': 'screen and (min-width: 1040px)',
-	'xl': 'screen and (min-width: 1300px)',
+	'sp': 'screen and (min-width: 768px)',
+	'tb': 'screen and (min-width: 940px)',
+	'md': 'screen and (min-width: 1000px)',
+	'lg': 'screen and (min-width: 1300px)',
 ) !default;
 
 $breakpoint-down: (
-	'sm': 'screen and (max-width: 399px)',
-	'menu': 'screen and (max-width: 599px)',
-	'footer-nav': 'screen and (max-width: 799px)',
-	'md': 'screen and (max-width: 939px)',
-	'lg': 'screen and (max-width: 1039px)',
-	'xl': 'screen and (max-width: 1299px)',
+	'sp': 'screen and (max-width: 767px)',
+	'tb': 'screen and (max-width: 939px)',
+	'md': 'screen and (max-width: 999px)',
+	'lg': 'screen and (max-width: 1299px)',
 ) !default;
 
+//
+// It's means sign below
+// -------------------------
+// sp : smartphone
+// tb : tablet
+// md : medium
+// lg : large
+// -------------------------
+//
 
-@mixin mq-up($breakpoint: xl) {
+
+@mixin mq-up($breakpoint: lg) {
 	@media #{map-get($breakpoint-up, $breakpoint)}{
 		@content;
 	}
 }
 
-@mixin mq-down($breakpoint: xl) {
+@mixin mq-down($breakpoint: lg) {
 	@media #{map-get($breakpoint-down, $breakpoint)}{
 		@content;
 	}
