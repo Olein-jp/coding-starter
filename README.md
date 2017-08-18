@@ -1,2 +1,2 @@
-# コーディング・スターター
-コーディングをする上で必要なセッティングをまとめたものです
+# Coding Starter Package
+This package will support your coding.
