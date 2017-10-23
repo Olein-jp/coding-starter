@@ -24,30 +24,37 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 /*--------------------------------------------------------------
 	form reset
@@ -64,7 +71,8 @@ select {
   outline: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none; }
+  appearance: none;
+}
 
 /*--------------------------------------------------------------
 	Base
@@ -73,7 +81,8 @@ select {
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
   font-family: sans-serif;
@@ -81,10 +90,12 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent;
+}
 
 @-ms-viewport {
-  width: device-width; }
+  width: device-width;
+}
 
 article,
 aside,
@@ -97,7 +108,8 @@ hgroup,
 main,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 body {
   margin: 0;
@@ -107,4 +119,5 @@ body {
   line-height: 1.7;
   color: #000;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+}

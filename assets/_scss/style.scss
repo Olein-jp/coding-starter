@@ -1,22 +1,22 @@
 @charset "UTF-8";
 //======================================================================
-// Import files
+// common setting files
 //======================================================================
 @import "variables";
-@import "mediaquery";
-
+@import "lib/mediaquery";
+@import "lib/mixin";
 
 /*--------------------------------------------------------------
 	reset
 --------------------------------------------------------------*/
-//@import "reset/normalize";
-@import "reset/reset";
-//@import "reset/sanitize";
+//@import "lib/reset/normalize";
+@import "lib/reset/reset";
+//@import "lib/reset/sanitize";
 
 /*--------------------------------------------------------------
 	form reset
 --------------------------------------------------------------*/
-@import "reset/input";
+@import "lib/reset/input";
 
 /*--------------------------------------------------------------
 	Base
