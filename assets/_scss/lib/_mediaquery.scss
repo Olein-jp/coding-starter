@@ -23,13 +23,13 @@ $breakpoint-down: (
 //
 
 
-@mixin mq-up($breakpoint: lg) {
+@mixin mq-up($breakpoint: tb) {
 	@media #{map-get($breakpoint-up, $breakpoint)}{
 		@content;
 	}
 }
 
-@mixin mq-down($breakpoint: lg) {
+@mixin mq-down($breakpoint: pc) {
 	@media #{map-get($breakpoint-down, $breakpoint)}{
 		@content;
 	}
